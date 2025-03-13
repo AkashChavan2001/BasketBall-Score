@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("./image/th\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 40%;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding-bottom: 8rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 5rem;
+}
+main  #left{
+    background-color: rgba(255, 255, 255, 0.845);
+    border-radius: 8px;
+}
+main  #right{
+    background-color: white;
+    border-radius: 8px;
+}
+main img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 8px;
+}
+main h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+main #bt1{
+   
+    font-size: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+main #bt1 button{
+    font-size: 1rem;
+    padding: 10px 11px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+main #bt1 #res{
+    background-color: rgb(211, 56, 56);
+}
+main #bt2{
+   
+    font-size: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+main #bt2 button{
+    font-size: 1rem;
+    padding: 10px 11px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+main #bt2 #res{
+    background-color: rgb(211, 56, 56);
+}
+main p{
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
